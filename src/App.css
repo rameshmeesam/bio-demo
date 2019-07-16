@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid  #fffbfb;
+}
+
+.nav-custom-box {  
+    border: 1px solid;
+    margin: 10px;
+}
+
+.nav-custom-box .nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  margin: 15px;
+  background: green;
+  color: white;
+
+}
+
+.App {
+  background: #1e2330;
+  color: #fffbfb;
+}
+
+.beverage-box {
+    border: 1px solid;
+    margin: 10px;
+}
+
+.card-title {
+  margin-bottom: .75rem;
+  background: #bd9140;
+  height: 32px;
+ 
+  /* margin: 2px; */
+}
+
+.card-box-cust {
+  margin: 5px;
+}
+
+.cust-card-title {
+  background:orange;
+  cursor: pointer;
+}
+
+.order-form  {
+  width: 50%;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.cust-card-name {
+  background:rgb(255, 255, 255);
+  color: black;
+}
+
+.order-box {
+    margin: 50px;
+    border: 1px solid;
+}
+
+.nav-custom-box .nav-link {
+  cursor: pointer;
+}
+
+
